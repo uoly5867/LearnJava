@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class TwoMoreQuestions {
+    public static void main( String[] args ) {
+	Scanner keyboard = new Scanner(System.in);
+
+	System.out.println( "TWO MORE QUESTIONS!" );
+	System.out.println();
+
+	System.out.println( "Think of something and I'll try to guess it!" );
+	System.out.println();
+
+	System.out.println( "Question 1) Does it belong inside or outside or both? inside, outside, or both" );
+	String ansOne = keyboard.next();
+
+	System.out.println( "Question 2) Is it alive? alive or not alive" );
+	String ansTwo = keyboard.next();
+	System.out.println();
+	
+	if ( (ansOne.equals("inside")) && (ansTwo.equals("alive")) )
+	    System.out.println( "Is it a houseplant?" );
+	if ( (ansOne.equals("inside")) && (ansTwo.equals("not alive")) )
+	    System.out.println( "Is it a shower curtain" );
+	if ( (ansOne.equals("outside")) && (ansTwo.equals("alive")) )
+	    System.out.println( "Is it a bison?" );
+	if ( (ansOne.equals("outside")) && (ansTwo.equals("not alive")) )
+	    System.out.prtinln( "Is it a billboard" );
+	if ( (ansOne.equals("both")) && (ansTwo.equals("alive")) )
+	    System.out.println( "Is it a dog?" );
+	if ( (ansOne.equals("both")) && (ansTwo.equals("not alive")) )
+	    System.out.println( "Is it a cellphone?" );
+    }
+}
