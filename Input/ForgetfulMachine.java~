@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ForgetfulMachine {
+    public static void main( String[] args ) {
+	Scanner keyboard = new Scanner(System.in);
+	
+	System.out.println( "Give me a word!" );
+	System.out.println( "Give me a second word!" );
+	System.out.println( "Great, now your favorite number?" );
+	System.out.println( "And your second-favorite number..." );
+
+	System.out.println( "Whew! Wasn't that fun?" );
+    }
+}

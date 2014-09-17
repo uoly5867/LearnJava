@@ -1,0 +1,12 @@
+public class MoreUserInputOfData {
+    public static void main( String[] args ) {
+	Scanner keyboard = new Scanner(System.in);
+	
+	String FirstName, LastName, StudentID, login;
+	int grade;
+	double gpa;
+
+	System.out.println( "Please enter the following information so I can sell it for a profit!" );
+	System.out.println( "" )
+    }
+}

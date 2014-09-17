@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class SpaceBoxing {
+    public static void main( String[] args ) {
+	Scanner keyboard = new Scanner(System.in);
+
+	System.out.print( "Please enter your current earth weight: " );
+	int WeightEarth = keyboard.nextInt();
+	System.out.println();
+	
+	System.out.println( "I have information for the following planets:" );
+	System.out.println( "    1. Venus    2. Mars    3. Jupitor" );
+	System.out.println( "    4. Saturn   5. Uranus  6. Neptune" );
+    }
+}
